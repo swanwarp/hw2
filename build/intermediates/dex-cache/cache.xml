@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\homework2-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="D:\homework2-master\app\build\intermediates\pre-dexed\release\classes-f1ce9ebfe5d0a829f1e4283485bf323ec5a15709.jar" />
+    </item>
+    <item
+        jar="D:\homework2-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\homework2-master\app\build\intermediates\pre-dexed\release\classes-57f8b7702a854e94561d54f4624273c566ad41dd.jar" />
+    </item>
+    <item
+        jar="D:\homework2-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\homework2-master\app\build\intermediates\pre-dexed\release\internal_impl-23.0.1-3f966840dc8b4b0b898441b2d5f9048b2f01a47a.jar" />
+    </item>
+    <item
+        jar="D:\homework2-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\homework2-master\app\build\intermediates\pre-dexed\release\classes-40b0dbc29ab182ce1d8a18ec33415bf6f21e1103.jar" />
+    </item>
+    <item
+        jar="D:\androidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\homework2-master\app\build\intermediates\pre-dexed\release\support-annotations-23.0.1-a80b674fd992d490f9e34981cce7774636c9fdad.jar" />
+    </item>
+
+</items>
