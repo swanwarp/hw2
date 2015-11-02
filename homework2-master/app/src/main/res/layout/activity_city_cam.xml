@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout">
+
+        <ImageView
+            android:id="@+id/cam_image"
+            android:layout_width="320dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="#999"
+            android:adjustViewBounds="false" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@android:style/Widget.Holo.Light.ProgressBar.Large.Inverse"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="198dp"
+            android:layout_height="108dp"
+            android:text="There is no camera"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#370"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frameLayout"
+        android:layout_alignLeft="@+id/frameLayout"
+        android:layout_alignStart="@+id/frameLayout"
+        android:layout_alignRight="@+id/frameLayout"
+        android:layout_alignEnd="@+id/frameLayout"
+        android:id="@+id/frameLayout2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prev"
+            android:id="@+id/PrevButton"
+            android:layout_gravity="left|top"
+            android:clickable="true"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/NextButton"
+            android:layout_gravity="right|top"
+            android:clickable="true"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+    <!-- Добавьте сюда еще View с информацией о выбранном городе и показанной веб-камеры -->
+
+</RelativeLayout>
